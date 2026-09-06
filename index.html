@@ -4,19 +4,28 @@
     <title>weatherscan.</title>
     <!-- Text properties -->
     <meta property="og:title" content="So I'm fucking watching Weatherscan, as I do," />
-    <meta property="og:description" content="and like, Radium Digital Cable? I'm on Comcast.&#10;And the, the only thing scrolling in the news scroll is just the words 'Radium is hardware' over and over, whatever the fuck that means.&#10;What the fuck is Radium? I subscribe to Comcast." />
+    <meta property="og:description" content="and like, Radium Digital Cable? I'm on Comcast.
+And the, the only thing scrolling in the news scroll is just the words 'Radium is hardware' over and over, whatever the fuck that means.
+What the fuck is Radium? I subscribe to Comcast." />
     
-    <!-- Video file path (Highly recommended to change extension to .mp4) -->
-    <meta property="twitter:player" content="https://cdn.b4ckendd.vip/comcast.mp4" />
-    
-    <!-- CRITICAL: These tags fix the "type: link" bug -->
+    <!-- REQUIRED: Direct video pointers -->
+    <meta property="og:video" content="https://cdn.b4ckendd.vip/comcast.mp4" />
+    <meta property="og:video:secure_url" content="https://cdn.b4ckendd.vip/comcast.mp4" />
     <meta property="og:video:type" content="video/mp4" />
     <meta property="og:video:width" content="640" />
     <meta property="og:video:height" content="480" />
 
-    <!-- Line break: &#10; -->
+    <!-- REQUIRED FALLBACK: Discord needs an image thumbnail to build the preview player box -->
+    <meta property="og:image" content="https://b4ckendd.vip" /> 
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="480" />
+
+    <!-- Twitter Card fallback properties to be safe -->
+    <meta name="twitter:card" content="player" />
+    <meta name="twitter:player" content="https://cdn.b4ckendd.vip/comcast.mp4" />
+    <meta name="twitter:player:width" content="640" />
+    <meta name="twitter:player:height" content="480" />
   </head>
   <body>
-    
   </body>
 </html>
